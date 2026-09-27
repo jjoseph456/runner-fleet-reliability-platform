@@ -1,0 +1,69 @@
+{
+  "generated_from": "deterministic synthetic simulation",
+  "production_claim": false,
+  "scenarios": [
+    {
+      "scenario": "baseline",
+      "jobs": 40,
+      "queue_p95_seconds": 10.0,
+      "failed_startups": 0,
+      "cleanup_failures": 0,
+      "slo_passed": true,
+      "breaches": [],
+      "estimated_runner_cost_usd": 0.107658
+    },
+    {
+      "scenario": "burst",
+      "jobs": 80,
+      "queue_p95_seconds": 690.0,
+      "failed_startups": 0,
+      "cleanup_failures": 0,
+      "slo_passed": false,
+      "breaches": [
+        "queue_to_start_p95",
+        "maximum_queue_age"
+      ],
+      "estimated_runner_cost_usd": 0.221542
+    },
+    {
+      "scenario": "capacity_loss",
+      "jobs": 50,
+      "queue_p95_seconds": 955.0,
+      "failed_startups": 8,
+      "cleanup_failures": 0,
+      "slo_passed": false,
+      "breaches": [
+        "queue_to_start_p95",
+        "runner_startup_success",
+        "maximum_queue_age"
+      ],
+      "estimated_runner_cost_usd": 0.11254
+    },
+    {
+      "scenario": "image_pull_failure",
+      "jobs": 40,
+      "queue_p95_seconds": 140.0,
+      "failed_startups": 10,
+      "cleanup_failures": 0,
+      "slo_passed": false,
+      "breaches": [
+        "queue_to_start_p95",
+        "runner_startup_success"
+      ],
+      "estimated_runner_cost_usd": 0.099478
+    },
+    {
+      "scenario": "github_api_degraded",
+      "jobs": 40,
+      "queue_p95_seconds": 215.0,
+      "failed_startups": 4,
+      "cleanup_failures": 0,
+      "slo_passed": false,
+      "breaches": [
+        "queue_to_start_p95",
+        "runner_startup_success"
+      ],
+      "estimated_runner_cost_usd": 0.122239
+    }
+  ]
+}

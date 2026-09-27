@@ -1,0 +1,8 @@
+allowed_api_cidrs = ["REPLACE_WITH_TRUSTED_PUBLIC_IP/32"]
+budget_email      = "REPLACE_WITH_EMAIL"
+github_repository = "jjoseph456/runner-fleet-reliability-platform"
+
+# Set true only when the AWS account does not already have the GitHub provider.
+create_github_oidc_provider = false
+
+# existing_github_oidc_provider_arn = "arn:aws:iam::ACCOUNT_ID:oidc-provider/token.actions.githubusercontent.com"

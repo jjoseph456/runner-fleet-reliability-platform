@@ -1,0 +1,30 @@
+replicaCount: 1
+
+image:
+  repository: runner-fleet-reliability-platform
+  tag: local
+  pullPolicy: IfNotPresent
+
+service:
+  port: 8080
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+podDisruptionBudget:
+  minAvailable: 0
+
+serviceMonitor:
+  enabled: true
+  labels:
+    release: prometheus
+
+prometheusRule:
+  enabled: true
+  labels:
+    release: prometheus

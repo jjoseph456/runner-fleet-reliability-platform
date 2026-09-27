@@ -1,0 +1,792 @@
+{
+  "id": "4d2606e9-ea0e-4cc6-965e-3bc160df4032",
+  "created_at": "2026-09-27T20:00:08.209178Z",
+  "request": {
+    "scenario": "burst",
+    "job_count": 80,
+    "warm_runners": 0,
+    "max_runners": 10,
+    "node_hourly_cost_usd": 0.05,
+    "seed": 42
+  },
+  "jobs": [
+    {
+      "job_id": "job-0001",
+      "queue_seconds": 0.0,
+      "startup_seconds": 32.952,
+      "run_seconds": 108.376,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0002",
+      "queue_seconds": 0.0,
+      "startup_seconds": 27.85,
+      "run_seconds": 135.133,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0003",
+      "queue_seconds": 0.0,
+      "startup_seconds": 34.311,
+      "run_seconds": 196.354,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0004",
+      "queue_seconds": 0.0,
+      "startup_seconds": 36.491,
+      "run_seconds": 116.737,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0005",
+      "queue_seconds": 0.0,
+      "startup_seconds": 29.907,
+      "run_seconds": 109.023,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0006",
+      "queue_seconds": 0.0,
+      "startup_seconds": 27.061,
+      "run_seconds": 173.223,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0007",
+      "queue_seconds": 0.0,
+      "startup_seconds": 24.372,
+      "run_seconds": 131.843,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0008",
+      "queue_seconds": 0.0,
+      "startup_seconds": 33.098,
+      "run_seconds": 178.567,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0009",
+      "queue_seconds": 0.0,
+      "startup_seconds": 27.086,
+      "run_seconds": 184.551,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0010",
+      "queue_seconds": 0.0,
+      "startup_seconds": 35.332,
+      "run_seconds": 105.877,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0011",
+      "queue_seconds": 80.0,
+      "startup_seconds": 35.281,
+      "run_seconds": 199.249,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0012",
+      "queue_seconds": 82.0,
+      "startup_seconds": 28.764,
+      "run_seconds": 125.99,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0013",
+      "queue_seconds": 84.0,
+      "startup_seconds": 37.401,
+      "run_seconds": 150.44,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0014",
+      "queue_seconds": 86.0,
+      "startup_seconds": 25.298,
+      "run_seconds": 118.057,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0015",
+      "queue_seconds": 88.0,
+      "startup_seconds": 35.865,
+      "run_seconds": 186.503,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0016",
+      "queue_seconds": 90.0,
+      "startup_seconds": 35.3,
+      "run_seconds": 203.514,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0017",
+      "queue_seconds": 92.0,
+      "startup_seconds": 31.507,
+      "run_seconds": 236.371,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0018",
+      "queue_seconds": 94.0,
+      "startup_seconds": 29.299,
+      "run_seconds": 179.525,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0019",
+      "queue_seconds": 96.0,
+      "startup_seconds": 35.612,
+      "run_seconds": 188.5,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0020",
+      "queue_seconds": 98.0,
+      "startup_seconds": 36.064,
+      "run_seconds": 182.943,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0021",
+      "queue_seconds": 180.0,
+      "startup_seconds": 33.864,
+      "run_seconds": 111.186,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0022",
+      "queue_seconds": 182.0,
+      "startup_seconds": 27.191,
+      "run_seconds": 144.067,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0023",
+      "queue_seconds": 184.0,
+      "startup_seconds": 25.117,
+      "run_seconds": 136.427,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0024",
+      "queue_seconds": 186.0,
+      "startup_seconds": 25.414,
+      "run_seconds": 142.526,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0025",
+      "queue_seconds": 188.0,
+      "startup_seconds": 32.9,
+      "run_seconds": 154.252,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0026",
+      "queue_seconds": 190.0,
+      "startup_seconds": 29.183,
+      "run_seconds": 133.283,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0027",
+      "queue_seconds": 192.0,
+      "startup_seconds": 27.738,
+      "run_seconds": 231.448,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0028",
+      "queue_seconds": 194.0,
+      "startup_seconds": 33.072,
+      "run_seconds": 187.233,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0029",
+      "queue_seconds": 196.0,
+      "startup_seconds": 26.396,
+      "run_seconds": 203.432,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0030",
+      "queue_seconds": 198.0,
+      "startup_seconds": 26.288,
+      "run_seconds": 156.226,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0031",
+      "queue_seconds": 280.0,
+      "startup_seconds": 37.853,
+      "run_seconds": 191.4,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0032",
+      "queue_seconds": 282.0,
+      "startup_seconds": 31.797,
+      "run_seconds": 197.423,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0033",
+      "queue_seconds": 284.0,
+      "startup_seconds": 35.8,
+      "run_seconds": 209.76,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0034",
+      "queue_seconds": 286.0,
+      "startup_seconds": 27.207,
+      "run_seconds": 109.334,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0035",
+      "queue_seconds": 288.0,
+      "startup_seconds": 28.416,
+      "run_seconds": 141.145,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0036",
+      "queue_seconds": 290.0,
+      "startup_seconds": 26.954,
+      "run_seconds": 232.293,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0037",
+      "queue_seconds": 292.0,
+      "startup_seconds": 36.269,
+      "run_seconds": 147.482,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0038",
+      "queue_seconds": 294.0,
+      "startup_seconds": 33.176,
+      "run_seconds": 158.41,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0039",
+      "queue_seconds": 296.0,
+      "startup_seconds": 36.804,
+      "run_seconds": 166.945,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0040",
+      "queue_seconds": 298.0,
+      "startup_seconds": 27.708,
+      "run_seconds": 138.295,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0041",
+      "queue_seconds": 380.0,
+      "startup_seconds": 31.859,
+      "run_seconds": 140.47,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0042",
+      "queue_seconds": 382.0,
+      "startup_seconds": 32.184,
+      "run_seconds": 226.206,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0043",
+      "queue_seconds": 384.0,
+      "startup_seconds": 29.592,
+      "run_seconds": 134.608,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0044",
+      "queue_seconds": 386.0,
+      "startup_seconds": 37.966,
+      "run_seconds": 173.786,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0045",
+      "queue_seconds": 388.0,
+      "startup_seconds": 25.273,
+      "run_seconds": 111.361,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0046",
+      "queue_seconds": 390.0,
+      "startup_seconds": 25.535,
+      "run_seconds": 189.705,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0047",
+      "queue_seconds": 392.0,
+      "startup_seconds": 35.089,
+      "run_seconds": 161.992,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0048",
+      "queue_seconds": 394.0,
+      "startup_seconds": 24.889,
+      "run_seconds": 156.519,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0049",
+      "queue_seconds": 396.0,
+      "startup_seconds": 37.946,
+      "run_seconds": 176.43,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0050",
+      "queue_seconds": 398.0,
+      "startup_seconds": 37.595,
+      "run_seconds": 221.205,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0051",
+      "queue_seconds": 480.0,
+      "startup_seconds": 24.161,
+      "run_seconds": 202.297,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0052",
+      "queue_seconds": 482.0,
+      "startup_seconds": 33.544,
+      "run_seconds": 177.491,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0053",
+      "queue_seconds": 484.0,
+      "startup_seconds": 27.736,
+      "run_seconds": 191.53,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0054",
+      "queue_seconds": 486.0,
+      "startup_seconds": 25.562,
+      "run_seconds": 163.693,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0055",
+      "queue_seconds": 488.0,
+      "startup_seconds": 30.352,
+      "run_seconds": 233.765,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0056",
+      "queue_seconds": 490.0,
+      "startup_seconds": 36.262,
+      "run_seconds": 140.558,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0057",
+      "queue_seconds": 492.0,
+      "startup_seconds": 31.008,
+      "run_seconds": 129.118,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0058",
+      "queue_seconds": 494.0,
+      "startup_seconds": 36.777,
+      "run_seconds": 222.52,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0059",
+      "queue_seconds": 496.0,
+      "startup_seconds": 28.178,
+      "run_seconds": 191.258,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0060",
+      "queue_seconds": 498.0,
+      "startup_seconds": 32.526,
+      "run_seconds": 125.633,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0061",
+      "queue_seconds": 580.0,
+      "startup_seconds": 34.675,
+      "run_seconds": 177.816,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0062",
+      "queue_seconds": 582.0,
+      "startup_seconds": 34.901,
+      "run_seconds": 176.598,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0063",
+      "queue_seconds": 584.0,
+      "startup_seconds": 24.008,
+      "run_seconds": 148.761,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0064",
+      "queue_seconds": 586.0,
+      "startup_seconds": 24.273,
+      "run_seconds": 230.428,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0065",
+      "queue_seconds": 588.0,
+      "startup_seconds": 36.302,
+      "run_seconds": 217.275,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0066",
+      "queue_seconds": 590.0,
+      "startup_seconds": 28.305,
+      "run_seconds": 112.82,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0067",
+      "queue_seconds": 592.0,
+      "startup_seconds": 36.292,
+      "run_seconds": 232.838,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0068",
+      "queue_seconds": 594.0,
+      "startup_seconds": 25.199,
+      "run_seconds": 170.609,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0069",
+      "queue_seconds": 596.0,
+      "startup_seconds": 24.969,
+      "run_seconds": 207.681,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0070",
+      "queue_seconds": 598.0,
+      "startup_seconds": 34.722,
+      "run_seconds": 122.333,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0071",
+      "queue_seconds": 680.0,
+      "startup_seconds": 30.654,
+      "run_seconds": 179.223,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0072",
+      "queue_seconds": 682.0,
+      "startup_seconds": 27.711,
+      "run_seconds": 222.778,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0073",
+      "queue_seconds": 684.0,
+      "startup_seconds": 29.924,
+      "run_seconds": 133.593,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0074",
+      "queue_seconds": 686.0,
+      "startup_seconds": 31.55,
+      "run_seconds": 203.541,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0075",
+      "queue_seconds": 688.0,
+      "startup_seconds": 26.816,
+      "run_seconds": 147.082,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0076",
+      "queue_seconds": 690.0,
+      "startup_seconds": 37.932,
+      "run_seconds": 192.734,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0077",
+      "queue_seconds": 692.0,
+      "startup_seconds": 30.133,
+      "run_seconds": 174.873,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0078",
+      "queue_seconds": 694.0,
+      "startup_seconds": 25.694,
+      "run_seconds": 135.334,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0079",
+      "queue_seconds": 696.0,
+      "startup_seconds": 28.733,
+      "run_seconds": 184.422,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0080",
+      "queue_seconds": 698.0,
+      "startup_seconds": 27.222,
+      "run_seconds": 134.729,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    }
+  ],
+  "snapshot": {
+    "recorded_at": "2026-09-27T20:00:08.208642Z",
+    "scenario": "burst",
+    "queued_jobs": 70,
+    "active_runners": 10,
+    "completed_jobs": 80,
+    "failed_startups": 0,
+    "cleanup_failures": 0,
+    "queue_p95_seconds": 690.0,
+    "max_queue_age_seconds": 698.0,
+    "estimated_cost_usd": 0.221542
+  },
+  "slo": {
+    "passed": false,
+    "checks": [
+      {
+        "name": "queue_to_start_p95",
+        "target": "<= 90.0s",
+        "actual": "690.0s",
+        "passed": false
+      },
+      {
+        "name": "runner_startup_success",
+        "target": ">= 99.00%",
+        "actual": "100.00%",
+        "passed": true
+      },
+      {
+        "name": "runner_cleanup_success",
+        "target": ">= 100.00%",
+        "actual": "100.00%",
+        "passed": true
+      },
+      {
+        "name": "maximum_queue_age",
+        "target": "<= 300.0s",
+        "actual": "698.0s",
+        "passed": false
+      }
+    ],
+    "breached": [
+      "queue_to_start_p95",
+      "maximum_queue_age"
+    ]
+  },
+  "cost": {
+    "assumed_node_hourly_cost_usd": 0.05,
+    "runner_compute_hours": 4.430834,
+    "estimated_runner_compute_cost_usd": 0.221542,
+    "estimated_cost_per_completed_job_usd": 0.002769,
+    "excludes": [
+      "EKS control plane",
+      "storage",
+      "public IPv4",
+      "network transfer",
+      "logging and monitoring"
+    ]
+  }
+}

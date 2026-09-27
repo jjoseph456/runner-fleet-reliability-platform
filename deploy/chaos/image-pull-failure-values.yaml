@@ -1,0 +1,4 @@
+image:
+  repository: invalid.example/runner-fleet-platform
+  tag: intentionally-missing
+  pullPolicy: Always

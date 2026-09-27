@@ -1,0 +1,523 @@
+{
+  "id": "a187d0fc-c94e-4c81-9242-5b56fd978267",
+  "created_at": "2026-09-27T20:00:08.212168Z",
+  "request": {
+    "scenario": "capacity_loss",
+    "job_count": 50,
+    "warm_runners": 0,
+    "max_runners": 5,
+    "node_hourly_cost_usd": 0.05,
+    "seed": 42
+  },
+  "jobs": [
+    {
+      "job_id": "job-0001",
+      "queue_seconds": 100.0,
+      "startup_seconds": 32.952,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0002",
+      "queue_seconds": 100.0,
+      "startup_seconds": 27.85,
+      "run_seconds": 135.133,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0003",
+      "queue_seconds": 100.0,
+      "startup_seconds": 34.311,
+      "run_seconds": 196.354,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0004",
+      "queue_seconds": 100.0,
+      "startup_seconds": 36.491,
+      "run_seconds": 116.737,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0005",
+      "queue_seconds": 100.0,
+      "startup_seconds": 29.907,
+      "run_seconds": 109.023,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0006",
+      "queue_seconds": 195.0,
+      "startup_seconds": 27.061,
+      "run_seconds": 173.223,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0007",
+      "queue_seconds": 195.0,
+      "startup_seconds": 24.372,
+      "run_seconds": 131.843,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0008",
+      "queue_seconds": 195.0,
+      "startup_seconds": 33.098,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0009",
+      "queue_seconds": 195.0,
+      "startup_seconds": 27.086,
+      "run_seconds": 184.551,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0010",
+      "queue_seconds": 195.0,
+      "startup_seconds": 35.332,
+      "run_seconds": 105.877,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0011",
+      "queue_seconds": 290.0,
+      "startup_seconds": 35.281,
+      "run_seconds": 199.249,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0012",
+      "queue_seconds": 290.0,
+      "startup_seconds": 28.764,
+      "run_seconds": 125.99,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0013",
+      "queue_seconds": 290.0,
+      "startup_seconds": 37.401,
+      "run_seconds": 150.44,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0014",
+      "queue_seconds": 290.0,
+      "startup_seconds": 25.298,
+      "run_seconds": 118.057,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0015",
+      "queue_seconds": 290.0,
+      "startup_seconds": 35.865,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0016",
+      "queue_seconds": 385.0,
+      "startup_seconds": 35.3,
+      "run_seconds": 203.514,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0017",
+      "queue_seconds": 385.0,
+      "startup_seconds": 31.507,
+      "run_seconds": 236.371,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0018",
+      "queue_seconds": 385.0,
+      "startup_seconds": 29.299,
+      "run_seconds": 179.525,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0019",
+      "queue_seconds": 385.0,
+      "startup_seconds": 35.612,
+      "run_seconds": 188.5,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0020",
+      "queue_seconds": 385.0,
+      "startup_seconds": 36.064,
+      "run_seconds": 182.943,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0021",
+      "queue_seconds": 480.0,
+      "startup_seconds": 33.864,
+      "run_seconds": 111.186,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0022",
+      "queue_seconds": 480.0,
+      "startup_seconds": 27.191,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0023",
+      "queue_seconds": 480.0,
+      "startup_seconds": 25.117,
+      "run_seconds": 136.427,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0024",
+      "queue_seconds": 480.0,
+      "startup_seconds": 25.414,
+      "run_seconds": 142.526,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0025",
+      "queue_seconds": 480.0,
+      "startup_seconds": 32.9,
+      "run_seconds": 154.252,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0026",
+      "queue_seconds": 575.0,
+      "startup_seconds": 29.183,
+      "run_seconds": 133.283,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0027",
+      "queue_seconds": 575.0,
+      "startup_seconds": 27.738,
+      "run_seconds": 231.448,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0028",
+      "queue_seconds": 575.0,
+      "startup_seconds": 33.072,
+      "run_seconds": 187.233,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0029",
+      "queue_seconds": 575.0,
+      "startup_seconds": 26.396,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0030",
+      "queue_seconds": 575.0,
+      "startup_seconds": 26.288,
+      "run_seconds": 156.226,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0031",
+      "queue_seconds": 670.0,
+      "startup_seconds": 37.853,
+      "run_seconds": 191.4,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0032",
+      "queue_seconds": 670.0,
+      "startup_seconds": 31.797,
+      "run_seconds": 197.423,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0033",
+      "queue_seconds": 670.0,
+      "startup_seconds": 35.8,
+      "run_seconds": 209.76,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0034",
+      "queue_seconds": 670.0,
+      "startup_seconds": 27.207,
+      "run_seconds": 109.334,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0035",
+      "queue_seconds": 670.0,
+      "startup_seconds": 28.416,
+      "run_seconds": 141.145,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0036",
+      "queue_seconds": 765.0,
+      "startup_seconds": 26.954,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0037",
+      "queue_seconds": 765.0,
+      "startup_seconds": 36.269,
+      "run_seconds": 147.482,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0038",
+      "queue_seconds": 765.0,
+      "startup_seconds": 33.176,
+      "run_seconds": 158.41,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0039",
+      "queue_seconds": 765.0,
+      "startup_seconds": 36.804,
+      "run_seconds": 166.945,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0040",
+      "queue_seconds": 765.0,
+      "startup_seconds": 27.708,
+      "run_seconds": 138.295,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0041",
+      "queue_seconds": 860.0,
+      "startup_seconds": 31.859,
+      "run_seconds": 140.47,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0042",
+      "queue_seconds": 860.0,
+      "startup_seconds": 32.184,
+      "run_seconds": 226.206,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0043",
+      "queue_seconds": 860.0,
+      "startup_seconds": 29.592,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    },
+    {
+      "job_id": "job-0044",
+      "queue_seconds": 860.0,
+      "startup_seconds": 37.966,
+      "run_seconds": 173.786,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0045",
+      "queue_seconds": 860.0,
+      "startup_seconds": 25.273,
+      "run_seconds": 111.361,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0046",
+      "queue_seconds": 955.0,
+      "startup_seconds": 25.535,
+      "run_seconds": 189.705,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0047",
+      "queue_seconds": 955.0,
+      "startup_seconds": 35.089,
+      "run_seconds": 161.992,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0048",
+      "queue_seconds": 955.0,
+      "startup_seconds": 24.889,
+      "run_seconds": 156.519,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0049",
+      "queue_seconds": 955.0,
+      "startup_seconds": 37.946,
+      "run_seconds": 176.43,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0050",
+      "queue_seconds": 955.0,
+      "startup_seconds": 37.595,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": false,
+      "failure_reason": "node capacity unavailable"
+    }
+  ],
+  "snapshot": {
+    "recorded_at": "2026-09-27T20:00:08.211170Z",
+    "scenario": "capacity_loss",
+    "queued_jobs": 50,
+    "active_runners": 5,
+    "completed_jobs": 42,
+    "failed_startups": 8,
+    "cleanup_failures": 0,
+    "queue_p95_seconds": 955.0,
+    "max_queue_age_seconds": 955.0,
+    "estimated_cost_usd": 0.11254
+  },
+  "slo": {
+    "passed": false,
+    "checks": [
+      {
+        "name": "queue_to_start_p95",
+        "target": "<= 90.0s",
+        "actual": "955.0s",
+        "passed": false
+      },
+      {
+        "name": "runner_startup_success",
+        "target": ">= 99.00%",
+        "actual": "84.00%",
+        "passed": false
+      },
+      {
+        "name": "runner_cleanup_success",
+        "target": ">= 100.00%",
+        "actual": "100.00%",
+        "passed": true
+      },
+      {
+        "name": "maximum_queue_age",
+        "target": "<= 300.0s",
+        "actual": "955.0s",
+        "passed": false
+      }
+    ],
+    "breached": [
+      "queue_to_start_p95",
+      "runner_startup_success",
+      "maximum_queue_age"
+    ]
+  },
+  "cost": {
+    "assumed_node_hourly_cost_usd": 0.05,
+    "runner_compute_hours": 2.250794,
+    "estimated_runner_compute_cost_usd": 0.11254,
+    "estimated_cost_per_completed_job_usd": 0.00268,
+    "excludes": [
+      "EKS control plane",
+      "storage",
+      "public IPv4",
+      "network transfer",
+      "logging and monitoring"
+    ]
+  }
+}

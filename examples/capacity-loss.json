@@ -1,0 +1,8 @@
+{
+  "scenario": "capacity_loss",
+  "job_count": 50,
+  "warm_runners": 0,
+  "max_runners": 5,
+  "node_hourly_cost_usd": 0.05,
+  "seed": 42
+}

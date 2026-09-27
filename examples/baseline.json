@@ -1,0 +1,8 @@
+{
+  "scenario": "baseline",
+  "job_count": 20,
+  "warm_runners": 2,
+  "max_runners": 10,
+  "node_hourly_cost_usd": 0.05,
+  "seed": 42
+}

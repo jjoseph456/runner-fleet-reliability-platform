@@ -1,0 +1,37 @@
+{{- if .Values.prometheusRule.enabled }}
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: {{ include "runner-fleet.name" . }}
+  labels:
+    {{- toYaml .Values.prometheusRule.labels | nindent 4 }}
+spec:
+  groups:
+    - name: runner-fleet-slos
+      rules:
+        - alert: RunnerFleetQueueP95High
+          expr: |
+            histogram_quantile(
+              0.95,
+              sum(rate(runner_fleet_queue_seconds_bucket[5m])) by (le)
+            ) > 90
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: Runner queue-to-start p95 exceeds 90 seconds
+        - alert: RunnerFleetStartupFailures
+          expr: runner_fleet_failed_startups > 0
+          for: 2m
+          labels:
+            severity: critical
+          annotations:
+            summary: Ephemeral runner startup failures detected
+        - alert: RunnerFleetCleanupFailure
+          expr: runner_fleet_cleanup_failures > 0
+          for: 1m
+          labels:
+            severity: critical
+          annotations:
+            summary: Ephemeral runner cleanup failure detected
+{{- end }}

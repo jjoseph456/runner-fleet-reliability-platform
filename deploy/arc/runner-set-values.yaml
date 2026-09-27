@@ -1,0 +1,26 @@
+githubConfigUrl: "https://github.com/REPLACE_WITH_OWNER_OR_ORG"
+githubConfigSecret: arc-github-app
+
+runnerGroup: Default
+runnerScaleSetName: portfolio-arc-runners
+
+minRunners: 0
+maxRunners: 4
+
+template:
+  spec:
+    containers:
+      - name: runner
+        image: "REPLACE_WITH_PINNED_RUNNER_IMAGE"
+        command: ["/home/runner/run.sh"]
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+          limits:
+            cpu: "2"
+            memory: "4Gi"
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          runAsNonRoot: true

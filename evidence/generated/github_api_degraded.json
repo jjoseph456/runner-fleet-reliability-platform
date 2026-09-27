@@ -1,0 +1,432 @@
+{
+  "id": "78e3a6c8-e156-4a4e-8306-a59ae4391267",
+  "created_at": "2026-09-27T20:00:08.221172Z",
+  "request": {
+    "scenario": "github_api_degraded",
+    "job_count": 40,
+    "warm_runners": 0,
+    "max_runners": 8,
+    "node_hourly_cost_usd": 0.05,
+    "seed": 42
+  },
+  "jobs": [
+    {
+      "job_id": "job-0001",
+      "queue_seconds": 75.0,
+      "startup_seconds": 82.952,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": true,
+      "failure_reason": "JIT configuration request failed"
+    },
+    {
+      "job_id": "job-0002",
+      "queue_seconds": 75.0,
+      "startup_seconds": 77.85,
+      "run_seconds": 135.133,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0003",
+      "queue_seconds": 75.0,
+      "startup_seconds": 84.311,
+      "run_seconds": 196.354,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0004",
+      "queue_seconds": 75.0,
+      "startup_seconds": 86.491,
+      "run_seconds": 116.737,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0005",
+      "queue_seconds": 75.0,
+      "startup_seconds": 79.907,
+      "run_seconds": 109.023,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0006",
+      "queue_seconds": 75.0,
+      "startup_seconds": 77.061,
+      "run_seconds": 173.223,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0007",
+      "queue_seconds": 75.0,
+      "startup_seconds": 74.372,
+      "run_seconds": 131.843,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0008",
+      "queue_seconds": 75.0,
+      "startup_seconds": 83.098,
+      "run_seconds": 178.567,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0009",
+      "queue_seconds": 110.0,
+      "startup_seconds": 77.086,
+      "run_seconds": 184.551,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0010",
+      "queue_seconds": 110.0,
+      "startup_seconds": 85.332,
+      "run_seconds": 105.877,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0011",
+      "queue_seconds": 110.0,
+      "startup_seconds": 85.281,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": true,
+      "failure_reason": "JIT configuration request failed"
+    },
+    {
+      "job_id": "job-0012",
+      "queue_seconds": 110.0,
+      "startup_seconds": 78.764,
+      "run_seconds": 125.99,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0013",
+      "queue_seconds": 110.0,
+      "startup_seconds": 87.401,
+      "run_seconds": 150.44,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0014",
+      "queue_seconds": 110.0,
+      "startup_seconds": 75.298,
+      "run_seconds": 118.057,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0015",
+      "queue_seconds": 110.0,
+      "startup_seconds": 85.865,
+      "run_seconds": 186.503,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0016",
+      "queue_seconds": 110.0,
+      "startup_seconds": 85.3,
+      "run_seconds": 203.514,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0017",
+      "queue_seconds": 145.0,
+      "startup_seconds": 81.507,
+      "run_seconds": 236.371,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0018",
+      "queue_seconds": 145.0,
+      "startup_seconds": 79.299,
+      "run_seconds": 179.525,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0019",
+      "queue_seconds": 145.0,
+      "startup_seconds": 85.612,
+      "run_seconds": 188.5,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0020",
+      "queue_seconds": 145.0,
+      "startup_seconds": 86.064,
+      "run_seconds": 182.943,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0021",
+      "queue_seconds": 145.0,
+      "startup_seconds": 83.864,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": true,
+      "failure_reason": "JIT configuration request failed"
+    },
+    {
+      "job_id": "job-0022",
+      "queue_seconds": 145.0,
+      "startup_seconds": 77.191,
+      "run_seconds": 144.067,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0023",
+      "queue_seconds": 145.0,
+      "startup_seconds": 75.117,
+      "run_seconds": 136.427,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0024",
+      "queue_seconds": 145.0,
+      "startup_seconds": 75.414,
+      "run_seconds": 142.526,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0025",
+      "queue_seconds": 180.0,
+      "startup_seconds": 82.9,
+      "run_seconds": 154.252,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0026",
+      "queue_seconds": 180.0,
+      "startup_seconds": 79.183,
+      "run_seconds": 133.283,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0027",
+      "queue_seconds": 180.0,
+      "startup_seconds": 77.738,
+      "run_seconds": 231.448,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0028",
+      "queue_seconds": 180.0,
+      "startup_seconds": 83.072,
+      "run_seconds": 187.233,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0029",
+      "queue_seconds": 180.0,
+      "startup_seconds": 76.396,
+      "run_seconds": 203.432,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0030",
+      "queue_seconds": 180.0,
+      "startup_seconds": 76.288,
+      "run_seconds": 156.226,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0031",
+      "queue_seconds": 180.0,
+      "startup_seconds": 87.853,
+      "run_seconds": 0.0,
+      "startup_succeeded": false,
+      "cleanup_succeeded": true,
+      "failure_reason": "JIT configuration request failed"
+    },
+    {
+      "job_id": "job-0032",
+      "queue_seconds": 180.0,
+      "startup_seconds": 81.797,
+      "run_seconds": 197.423,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0033",
+      "queue_seconds": 215.0,
+      "startup_seconds": 85.8,
+      "run_seconds": 209.76,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0034",
+      "queue_seconds": 215.0,
+      "startup_seconds": 77.207,
+      "run_seconds": 109.334,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0035",
+      "queue_seconds": 215.0,
+      "startup_seconds": 78.416,
+      "run_seconds": 141.145,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0036",
+      "queue_seconds": 215.0,
+      "startup_seconds": 76.954,
+      "run_seconds": 232.293,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0037",
+      "queue_seconds": 215.0,
+      "startup_seconds": 86.269,
+      "run_seconds": 147.482,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0038",
+      "queue_seconds": 215.0,
+      "startup_seconds": 83.176,
+      "run_seconds": 158.41,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0039",
+      "queue_seconds": 215.0,
+      "startup_seconds": 86.804,
+      "run_seconds": 166.945,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    },
+    {
+      "job_id": "job-0040",
+      "queue_seconds": 215.0,
+      "startup_seconds": 77.708,
+      "run_seconds": 138.295,
+      "startup_succeeded": true,
+      "cleanup_succeeded": true,
+      "failure_reason": null
+    }
+  ],
+  "snapshot": {
+    "recorded_at": "2026-09-27T20:00:08.220171Z",
+    "scenario": "github_api_degraded",
+    "queued_jobs": 40,
+    "active_runners": 8,
+    "completed_jobs": 36,
+    "failed_startups": 4,
+    "cleanup_failures": 0,
+    "queue_p95_seconds": 215.0,
+    "max_queue_age_seconds": 215.0,
+    "estimated_cost_usd": 0.122239
+  },
+  "slo": {
+    "passed": false,
+    "checks": [
+      {
+        "name": "queue_to_start_p95",
+        "target": "<= 90.0s",
+        "actual": "215.0s",
+        "passed": false
+      },
+      {
+        "name": "runner_startup_success",
+        "target": ">= 99.00%",
+        "actual": "90.00%",
+        "passed": false
+      },
+      {
+        "name": "runner_cleanup_success",
+        "target": ">= 100.00%",
+        "actual": "100.00%",
+        "passed": true
+      },
+      {
+        "name": "maximum_queue_age",
+        "target": "<= 300.0s",
+        "actual": "215.0s",
+        "passed": true
+      }
+    ],
+    "breached": [
+      "queue_to_start_p95",
+      "runner_startup_success"
+    ]
+  },
+  "cost": {
+    "assumed_node_hourly_cost_usd": 0.05,
+    "runner_compute_hours": 2.444772,
+    "estimated_runner_compute_cost_usd": 0.122239,
+    "estimated_cost_per_completed_job_usd": 0.003396,
+    "excludes": [
+      "EKS control plane",
+      "storage",
+      "public IPv4",
+      "network transfer",
+      "logging and monitoring"
+    ]
+  }
+}

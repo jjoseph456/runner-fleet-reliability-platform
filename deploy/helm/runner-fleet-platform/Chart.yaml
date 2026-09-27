@@ -1,0 +1,6 @@
+apiVersion: v2
+name: runner-fleet-platform
+description: SLO and evidence API for ephemeral runner fleets
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
