@@ -9,7 +9,7 @@ description = "SLO, capacity, cost, and incident control plane for ephemeral Git
 readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
-authors = [{ name = "Joseph Joseph" }]
+authors = [{ name = "Joseph P. Joseph" }]
 dependencies = [
   "fastapi>=0.115,<1",
   "mcp>=2,<3",
